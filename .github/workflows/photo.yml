@@ -44,7 +44,6 @@ jobs:
           cd blog_linshi/
           git init
           git remote add origin git@github.com:liaozonglong/test.git
-          git pull 
           git pull origin master
           cd ..
           
