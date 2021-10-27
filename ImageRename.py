@@ -22,6 +22,6 @@ def ImageRename(folder_path):
         i+=1
 
 if __name__ == "__main__":
-    folder_path = './photos'
+    folder_path = './zhongzhuan'
     ImageRename(folder_path)
     
