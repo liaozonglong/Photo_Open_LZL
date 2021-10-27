@@ -49,8 +49,11 @@ jobs:
           
       - name: python
         run: |
+          apt-get install python
+          aptget install pip
           python ImageRename.py
           mv zhongzhuan/* photos/
+          touch zhongzhuan/README.md
           pip install Pillow
           python tools.py
           
@@ -60,5 +63,5 @@ jobs:
           git add source/photos/data.json 
           git commit -m "photo"
           git push origin master
-          cd ..
-          rm -rf blog_linshi
+          git rm -n --cached blog_linshi
+          
