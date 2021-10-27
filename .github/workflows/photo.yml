@@ -61,6 +61,7 @@ jobs:
           git add source/photos/data.json 
           git commit -m "photo"
           git push origin master
+          cd ..
           git rm -r --cached blog_linshi/
           git commit -m "0"
           git push origin main
