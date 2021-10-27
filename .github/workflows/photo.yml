@@ -49,8 +49,8 @@ jobs:
           
       - name: python
         run: |
-          apt-get install python
-          aptget install pip
+          apt install python
+          apt install pip
           python ImageRename.py
           mv zhongzhuan/* photos/
           touch zhongzhuan/README.md
