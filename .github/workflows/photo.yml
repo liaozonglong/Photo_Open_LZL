@@ -2,11 +2,11 @@
 
 name: photo
 # master branch on push, auto run
-on:
-  push:
-    branches: [ main ]
-    paths:   # 这里是用来指定哪个文件更改，才会触发的
-      - 'zhongzhuan/**'
+#on:
+#  push:
+#    branches: [ main ]
+#    paths:   # 这里是用来指定哪个文件更改，才会触发的
+#      - 'zhongzhuan/**'
       
 jobs:
   build:
